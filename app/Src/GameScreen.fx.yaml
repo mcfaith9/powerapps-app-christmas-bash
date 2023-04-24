@@ -1,0 +1,8 @@
+GameScreen As screen:
+
+    bgGameScreen As image:
+        Height: =768
+        Image: ='background-game v2'
+        Width: =1366
+        ZIndex: =1
+

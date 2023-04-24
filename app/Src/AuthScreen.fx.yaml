@@ -1,0 +1,47 @@
+AuthScreen As screen:
+    BackgroundImage: ='empty-form-web'
+
+    authFormGroup As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =5
+
+        authInputEmail As text:
+            Align: =Align.Center
+            Clear: =true
+            Default: =
+            Height: =53
+            HintText: ="Email"
+            Reset: =true
+            Size: =20
+            Width: =521
+            X: =422
+            Y: =344
+            ZIndex: =2
+
+        authInputUsername As text:
+            Align: =Align.Center
+            Clear: =true
+            Default: =""
+            Height: =53
+            HintText: |+
+                ="Username"
+                
+            Reset: =true
+            Size: =20
+            Width: =521
+            X: =422
+            Y: =253
+            ZIndex: =3
+
+        btnAuthLogin As image:
+            Height: =79
+            Image: ='submit-idle'
+            OnSelect: =Navigate(GameScreen)
+            Width: =501
+            X: =442
+            Y: =436
+            ZIndex: =4
+

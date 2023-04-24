@@ -1,0 +1,13 @@
+HowToPlayScreen As screen:
+    BackgroundImage: ='how to play'
+
+    btnCloseHowToPlayScreen As image:
+        Height: =82
+        HoverFill: =
+        Image: ='close-idle'
+        OnSelect: =Navigate(StartScreen)
+        Width: =88
+        X: =15
+        Y: =9
+        ZIndex: =1
+

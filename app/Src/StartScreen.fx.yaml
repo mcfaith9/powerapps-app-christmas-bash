@@ -1,0 +1,53 @@
+StartScreen As screen:
+    BackgroundImage: ='leaderboard details'
+    OnVisible: =
+
+    logoStartScreen_2 As image:
+        Height: =341
+        Image: ='christmas-bash-logo v2'
+        Width: =1366
+        Y: =40
+        ZIndex: =1
+
+    logoStartScreen As image:
+        Height: =119
+        Image: ='agik logo'
+        Width: =359
+        X: =483
+        Y: =28
+        ZIndex: =2
+
+    btnGroupStartScreen As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =6
+
+        btnHowToPlayStartScreen As image:
+            Height: =79
+            Image: ='htp-idle'
+            OnSelect: =Navigate(HowToPlayScreen)
+            Width: =497
+            X: =415
+            Y: =643
+            ZIndex: =3
+
+        btnLeaderBoardStartScreen As image:
+            Height: =79
+            Image: ='leaderboard-idle'
+            OnSelect: =Navigate(LeaderboardScreen)
+            Width: =497
+            X: =413
+            Y: =545
+            ZIndex: =4
+
+        btnPlayStartScreen As image:
+            Height: =133
+            Image: ='PLAY-IDLE'
+            OnSelect: =Navigate(AuthScreen)
+            Width: =851
+            X: =236
+            Y: =396
+            ZIndex: =5
+

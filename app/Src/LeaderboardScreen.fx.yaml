@@ -1,0 +1,22 @@
+LeaderboardScreen As screen:
+    BackgroundImage: ='leaderboard details'
+
+    btnMainMenuLeaderboardScreen As image:
+        Height: =99
+        Image: ='main-menu-idle'
+        OnSelect: =Navigate(StartScreen)
+        Width: =280
+        X: =537
+        Y: =669
+        ZIndex: =1
+
+    dataTableLeaderboardScreen As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =681
+        Width: =800
+        X: =277
+        Y: =0
+        ZIndex: =2
+
