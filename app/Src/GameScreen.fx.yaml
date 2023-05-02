@@ -6,3 +6,10 @@ GameScreen As screen:
         Width: =1366
         ZIndex: =1
 
+    btnBackScreen As image:
+        Height: =79
+        Image: ='close-idle'
+        OnSelect: =Navigate(StartScreen)
+        Width: =102
+        ZIndex: =2
+
