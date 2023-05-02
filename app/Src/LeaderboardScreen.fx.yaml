@@ -21,3 +21,45 @@ LeaderboardScreen As screen:
         Y: =40
         ZIndex: =2
 
+        Emailaddress_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Emailaddress"
+            FieldName: ="Emailaddress"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Emailaddress
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+        Score_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Score"
+            FieldName: ="Score"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =2
+            Text: =ThisItem.Score
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =2
+
+        Username_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Username"
+            FieldName: ="Username"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =1
+            Text: =ThisItem.Username
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =3
+
