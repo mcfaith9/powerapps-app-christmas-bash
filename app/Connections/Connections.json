@@ -1,1 +1,52 @@
-{}
+{
+  "29a9186f-7f65-4603-90f4-dbbe897e54f3": {
+    "connectionRef": {
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "29a9186f-7f65-4603-90f4-dbbe897e54f3"
+  },
+  "a5b8535d-603d-4bf4-a2a8-d98d3971e837": {
+    "connectionRef": {
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/releases/ase-v3/1.0.1622.3202/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness"
+    },
+    "datasets": {
+      "me,b%2521l-PBazgTP0CksmHnveWge5sd3J73PhRFiYnlV2gop5GGRBt970N2R5CXJbvu4Hwq,01LJPT4FSCXPWLLKK3PBFJETDED5SYIPJ4": {
+        "dataSources": {
+          "Table1": {
+            "tableName": "{2DB23195-ADA8-42C4-B4D1-5726F76D19B5}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Table1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "a5b8535d-603d-4bf4-a2a8-d98d3971e837"
+  },
+  "d724983b-da9f-42eb-a001-9158c90920b9": {
+    "connectionRef": {
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1626/1.0.1626.3238/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users"
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users_1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "d724983b-da9f-42eb-a001-9158c90920b9"
+  }
+}

@@ -11,7 +11,7 @@ AuthScreen As screen:
         authInputEmail As text:
             Align: =Align.Center
             Clear: =true
-            Default: =
+            Default: =""
             Height: =53
             HintText: ="Email"
             Reset: =true
@@ -39,9 +39,15 @@ AuthScreen As screen:
         btnAuthLogin As image:
             Height: =79
             Image: ='submit-idle'
-            OnSelect: =Navigate(GameScreen)
+            OnSelect: |-
+                =If(
+                    IsBlank(authInputUsername.Text) || IsBlank(authInputEmail.Text),
+                    Notify("Please enter username and email", NotificationType.Error),
+                    Patch(Table1, Defaults(Table1), {Username: authInputUsername.Text, Emailaddress: authInputEmail.Text});
+                    Navigate(GameScreen)
+                )
             Width: =501
-            X: =442
+            X: =433
             Y: =436
             ZIndex: =4
 

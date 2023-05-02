@@ -10,13 +10,14 @@ LeaderboardScreen As screen:
         Y: =669
         ZIndex: =1
 
-    dataTableLeaderboardScreen As dataTable.datatable:
+    leaderboardTable As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        Height: =681
-        Width: =800
-        X: =277
-        Y: =0
+        Height: =588
+        Items: =Table1
+        Width: =1283
+        X: =40
+        Y: =40
         ZIndex: =2
 
