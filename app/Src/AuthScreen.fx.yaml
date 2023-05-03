@@ -44,7 +44,7 @@ AuthScreen As screen:
                     IsBlank(authInputUsername.Text) || IsBlank(authInputEmail.Text),
                     Notify("Please enter username and email", NotificationType.Error),
                     Patch(Table1, Defaults(Table1), {Username: authInputUsername.Text, Emailaddress: authInputEmail.Text});
-                    Navigate(GameScreen)
+                    Navigate(GameScreen, ScreenTransition.CoverRight)
                 )
             Width: =501
             X: =433

@@ -27,7 +27,7 @@ StartScreen As screen:
         btnHowToPlayStartScreen As image:
             Height: =79
             Image: ='htp-idle'
-            OnSelect: =Navigate(HowToPlayScreen)
+            OnSelect: =Navigate(HowToPlayScreen, ScreenTransition.CoverRight)
             Width: =497
             X: =415
             Y: =643
@@ -36,7 +36,7 @@ StartScreen As screen:
         btnLeaderBoardStartScreen As image:
             Height: =79
             Image: ='leaderboard-idle'
-            OnSelect: =Navigate(LeaderboardScreen)
+            OnSelect: =Navigate(LeaderboardScreen, ScreenTransition.CoverRight)
             Width: =497
             X: =413
             Y: =545
@@ -45,7 +45,7 @@ StartScreen As screen:
         btnPlayStartScreen As image:
             Height: =133
             Image: ='PLAY-IDLE'
-            OnSelect: =Navigate(AuthScreen)
+            OnSelect: =Navigate(AuthScreen, ScreenTransition.Fade)
             Width: =851
             X: =236
             Y: =396

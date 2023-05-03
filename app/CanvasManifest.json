@@ -56,7 +56,7 @@
       "exportimportcomponents2": true,
       "externalmessage": false,
       "fluentv9controls": false,
-      "fluentv9controlspreview": false,
+      "fluentv9controlspreview": true,
       "formuladataprefetch": true,
       "formularepair": true,
       "generatedebugpublishedapp": false,
@@ -94,6 +94,7 @@
       "zeroalltabindexes": false
     },
     "Author": "",
+    "BindingErrorCount": 0,
     "ContainsThirdPartyPcfControls": false,
     "DefaultConnectedDataSourceMaxGetRowsCount": 500,
     "DocumentAppType": "DesktopOrTablet",
@@ -110,7 +111,8 @@
     "InstrumentationKey": "",
     "ManualOfflineProfileId": "",
     "Name": "Dev App - Christmas Bash",
-    "OriginatingVersion": "1.330"
+    "OriginatingVersion": "1.330",
+    "ParserErrorCount": 0
   },
   "PublishInfo": {
     "AppName": "Dev App - Christmas Bash",
@@ -124,6 +126,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
+    "LoaderScreen",
     "StartScreen",
     "AuthScreen",
     "GameScreen",
