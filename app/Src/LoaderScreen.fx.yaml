@@ -1,25 +1,5 @@
 LoaderScreen As screen:
 
-    "Progress1 As 'Progress Bar'":
-        DisplayMode: =DisplayMode.Edit
-        Height: =58
-        Indeterminate: =false
-        ProgressColor: ='PowerApps.CoreControls.Progress.ProgressColor'.Warning
-        Thickness: ='PowerApps.CoreControls.Progress.Thickness'.Large
-        Value: =0
-        Width: =1253
-        X: =72
-        Y: =324
-        ZIndex: =1
-
-    Timer1 As timer:
-        AutoStart: =true
-        Duration: =5000
-        OnTimerEnd: =Navigate(StartScreen, ScreenTransition.Fade)
-        X: =349
-        Y: =263
-        ZIndex: =2
-
     Label1 As label:
         Align: =Align.Center
         Font: =Font.'Courier New'
@@ -28,7 +8,29 @@ LoaderScreen As screen:
         Size: =45
         Text: ="Loading..."
         Width: =378
-        X: =509
+        X: =505
         Y: =243
+        ZIndex: =1
+
+    "loaderProgressBar As 'Progress Bar'":
+        AccessibilityLabel: =""
+        DisplayMode: =DisplayMode.Edit
+        Height: =45
+        OnChange: =
+        ProgressColor: ='PowerApps.CoreControls.Progress.ProgressColor'.Warning
+        Thickness: ='PowerApps.CoreControls.Progress.Thickness'.Large
+        Value: =If(loaderScreenTimer.Duration = 0, 1, loaderScreenTimer.Value / loaderScreenTimer.Duration, 20)
+        Width: =1270
+        X: =59
+        Y: =324
+        ZIndex: =2
+
+    loaderScreenTimer As timer:
+        AutoStart: =true
+        DisplayMode: =DisplayMode.View
+        Duration: =5000
+        OnTimerEnd: =Navigate(StartScreen, ScreenTransition.Fade)
+        X: =345
+        Y: =263
         ZIndex: =3
 

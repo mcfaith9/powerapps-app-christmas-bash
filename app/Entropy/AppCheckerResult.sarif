@@ -868,19 +868,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "LoaderScreen.Timer1.AutoStart"
+                  "fullyQualifiedName": "LoaderScreen.loaderScreenTimer.AutoStart"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "LoaderScreen.Timer1.AutoStart",
+                  "fullyQualifiedName": "LoaderScreen.loaderScreenTimer.AutoStart",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AutoStart",
                 "module": "LoaderScreen",
-                "type": "LoaderScreen.Timer1"
+                "type": "LoaderScreen.loaderScreenTimer"
               }
             }
           ],

@@ -2,12 +2,10 @@ AuthScreen As screen:
     BackgroundImage: ='empty-form-web'
 
     Image1 As image:
-        Height: =81
+        Height: =90
         Image: ='close-idle'
         OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)
-        Width: =80
-        X: =21
-        Y: =3
+        Width: =94
         ZIndex: =5
 
     authFormGroup As group:
