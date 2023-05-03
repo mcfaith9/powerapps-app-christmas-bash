@@ -32,7 +32,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/03/2023 05:06:15",
+  "HeaderLastSavedDateTimeUTC": "05/03/2023 05:06:46",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "29a9186f-7f65-4603-90f4-dbbe897e54f3": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/144fdff63b2e4447a143a9765089e8a3\"",
@@ -226,9 +226,9 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "authFormGroup": 6,
+    "authFormGroup": 7,
     "authInputEmail": 8,
-    "authInputUsername": 7,
+    "authInputUsername": 6,
     "AuthScreen": 0,
     "bgGameScreen": 10,
     "btnAuthLogin": 9,

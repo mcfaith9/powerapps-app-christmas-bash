@@ -9,7 +9,7 @@ GameScreen As screen:
     btnBackScreen As image:
         Height: =79
         Image: ='close-idle'
-        OnSelect: =Navigate(StartScreen)
+        OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)
         Width: =102
         ZIndex: =2
 

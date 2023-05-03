@@ -5,7 +5,7 @@ HowToPlayScreen As screen:
         Height: =82
         HoverFill: =
         Image: ='close-idle'
-        OnSelect: =Navigate(StartScreen)
+        OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)
         Width: =88
         X: =15
         Y: =9

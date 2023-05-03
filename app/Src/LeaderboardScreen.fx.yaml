@@ -4,7 +4,7 @@ LeaderboardScreen As screen:
     btnMainMenuLeaderboardScreen As image:
         Height: =99
         Image: ='main-menu-idle'
-        OnSelect: =Navigate(StartScreen)
+        OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)
         Width: =280
         X: =537
         Y: =669
