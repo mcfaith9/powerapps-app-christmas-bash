@@ -1,4 +1,5 @@
 LoaderScreen As screen:
+    BackgroundImage: =
 
     loaderTextLabel As label:
         Align: =Align.Center
@@ -14,10 +15,13 @@ LoaderScreen As screen:
 
     "loaderProgressBar As 'Progress Bar'":
         AccessibilityLabel: =""
+        ContentLanguage: =""
         DisplayMode: =DisplayMode.Edit
         Height: =45
+        Indeterminate: =false
         OnChange: =
         ProgressColor: ='PowerApps.CoreControls.Progress.ProgressColor'.Warning
+        Shape: ='PowerApps.CoreControls.Progress.Shape'.Rounded
         Thickness: ='PowerApps.CoreControls.Progress.Thickness'.Large
         Value: =If(loaderScreenTimer.Duration = 0, 1, loaderScreenTimer.Value / loaderScreenTimer.Duration * 100)
         Width: =1270
