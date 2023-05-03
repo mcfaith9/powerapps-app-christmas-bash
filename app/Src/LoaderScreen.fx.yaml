@@ -19,7 +19,7 @@ LoaderScreen As screen:
         OnChange: =
         ProgressColor: ='PowerApps.CoreControls.Progress.ProgressColor'.Warning
         Thickness: ='PowerApps.CoreControls.Progress.Thickness'.Large
-        Value: =If(loaderScreenTimer.Duration = 0, 1, loaderScreenTimer.Value / loaderScreenTimer.Duration, 20)
+        Value: =If(loaderScreenTimer.Duration = 0, 1, loaderScreenTimer.Value / loaderScreenTimer.Duration * 100)
         Width: =1270
         X: =59
         Y: =324
@@ -30,6 +30,7 @@ LoaderScreen As screen:
         DisplayMode: =DisplayMode.View
         Duration: =5000
         OnTimerEnd: =Navigate(StartScreen, ScreenTransition.Fade)
+        Visible: =false
         X: =345
         Y: =263
         ZIndex: =3
