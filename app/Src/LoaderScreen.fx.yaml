@@ -1,2 +1,22 @@
 LoaderScreen As screen:
 
+    "Progress1 As 'Progress Bar'":
+        DisplayMode: =DisplayMode.Edit
+        Height: =58
+        Indeterminate: =false
+        ProgressColor: ='PowerApps.CoreControls.Progress.ProgressColor'.Warning
+        Thickness: ='PowerApps.CoreControls.Progress.Thickness'.Large
+        Value: =0
+        Width: =1253
+        X: =72
+        Y: =324
+        ZIndex: =1
+
+    Timer1 As timer:
+        AutoStart: =true
+        Duration: =5000
+        OnTimerEnd: =Navigate(StartScreen, ScreenTransition.Fade)
+        X: =618
+        Y: =463
+        ZIndex: =2
+
