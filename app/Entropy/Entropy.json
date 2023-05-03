@@ -21,6 +21,7 @@
     "GameScreen": 17,
     "Host": 3,
     "HowToPlayScreen": 21,
+    "Image1": 33,
     "Label1": 31,
     "LeaderboardScreen": 11,
     "leaderboardTable": 12,
@@ -35,7 +36,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/03/2023 05:12:53",
+  "HeaderLastSavedDateTimeUTC": "05/03/2023 05:19:44",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "29a9186f-7f65-4603-90f4-dbbe897e54f3": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/144fdff63b2e4447a143a9765089e8a3\"",
@@ -196,9 +197,9 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "image": 0,
-    "label": 3,
+    "label": 2,
     "text": 1,
-    "timer": 2
+    "timer": 3
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -220,6 +221,7 @@
     "GameScreen": {},
     "Host": {},
     "HowToPlayScreen": {},
+    "Image1": {},
     "Label1": {},
     "LeaderboardScreen": {},
     "leaderboardTable": {},
@@ -269,7 +271,8 @@
     "GameScreen": 0,
     "Host": 0,
     "HowToPlayScreen": 0,
-    "Label1": 1,
+    "Image1": 0,
+    "Label1": 0,
     "LeaderboardScreen": 0,
     "leaderboardTable": 15,
     "LoaderScreen": 0,
@@ -278,7 +281,7 @@
     "Progress1": 2,
     "Score_Column1": 18,
     "StartScreen": 0,
-    "Timer1": 0,
+    "Timer1": 1,
     "Username_Column1": 16
   },
   "ResourcesJsonIndices": {
