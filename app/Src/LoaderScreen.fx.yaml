@@ -16,7 +16,19 @@ LoaderScreen As screen:
         AutoStart: =true
         Duration: =5000
         OnTimerEnd: =Navigate(StartScreen, ScreenTransition.Fade)
-        X: =618
-        Y: =463
+        X: =349
+        Y: =263
         ZIndex: =2
+
+    Label1 As label:
+        Align: =Align.Center
+        Font: =Font.'Courier New'
+        FontWeight: =FontWeight.Bold
+        Height: =81
+        Size: =45
+        Text: ="Loading..."
+        Width: =378
+        X: =509
+        Y: =243
+        ZIndex: =3
 
