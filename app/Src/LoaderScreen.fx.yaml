@@ -1,6 +1,6 @@
 LoaderScreen As screen:
 
-    Label1 As label:
+    loaderTextLabel As label:
         Align: =Align.Center
         Font: =Font.'Courier New'
         FontWeight: =FontWeight.Bold
@@ -9,7 +9,7 @@ LoaderScreen As screen:
         Text: ="Loading..."
         Width: =378
         X: =505
-        Y: =243
+        Y: =369
         ZIndex: =1
 
     "loaderProgressBar As 'Progress Bar'":
