@@ -1,4 +1,5 @@
 GameScreen As screen:
+    OnVisible: =
 
     bgGameScreen As image:
         Height: =768
@@ -12,4 +13,12 @@ GameScreen As screen:
         OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)
         Width: =102
         ZIndex: =2
+
+    Image4 As image:
+        Height: =188
+        Image: ='mole-graham-cropped'
+        Width: =229
+        X: =441
+        Y: =372
+        ZIndex: =3
 

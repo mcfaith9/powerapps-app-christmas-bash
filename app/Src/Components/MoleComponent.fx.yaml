@@ -1,0 +1,38 @@
+MoleComponent As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Image2 As image:
+        Image: ='mole-graham-cropped'
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+    Image3 As image:
+        Image: ='mole-elf-cropped'
+        X: =140
+        Y: =40
+        ZIndex: =2
+
+    Image5 As image:
+        Image: ='mole-reindeer-cropped'
+        X: =256
+        Y: =40
+        ZIndex: =3
+
+    Image6 As image:
+        Image: ='mole-santa-cropped'
+        X: =356
+        Y: =40
+        ZIndex: =4
+
+    Image7 As image:
+        Image: ='mole-agik-cropped'
+        X: =456
+        Y: =40
+        ZIndex: =5
+
