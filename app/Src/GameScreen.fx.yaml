@@ -22,3 +22,19 @@ GameScreen As screen:
         Y: =372
         ZIndex: =3
 
+    Image8 As image:
+        Height: =151
+        Image: ='mole-santa-cropped'
+        Width: =128
+        X: =273
+        Y: =297
+        ZIndex: =4
+
+    Image9 As image:
+        Height: =188
+        Image: ='mole-agik-cropped'
+        Width: =151
+        X: =1000
+        Y: =372
+        ZIndex: =5
+
