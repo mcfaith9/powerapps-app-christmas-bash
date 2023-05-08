@@ -1,7 +1,7 @@
 AuthScreen As screen:
     BackgroundImage: ='empty-form-web'
 
-    Image1 As image:
+    closeBtnAuthScreen As image:
         Height: =90
         Image: ='close-idle'
         OnSelect: =Navigate(StartScreen, ScreenTransition.CoverRight)

@@ -248,7 +248,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Emailaddress_Column1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -400,11 +400,25 @@
       "AllowAccessToGlobals": true,
       "ControlPropertyState": [
         "Fill",
-        "Color",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Color",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "DisabledColor",
         "BorderColor",
         "BorderStyle",
-        "Font",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Font",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "FontWeight",
         "X",
         "Y",
@@ -416,18 +430,46 @@
         "PrimaryColor1",
         "PrimaryColor2",
         "PrimaryColor3",
-        "SelectedFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "SelectedFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "SelectedColor",
         "HoverFill",
         "HoverColor",
         "InputFill",
         "InvertedColor",
         "HeadingFont",
-        "HeadingSize",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "HeadingSize",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HeadingFontWeight",
-        "HeadingFill",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "HeadingFill",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         "HeadingColor",
-        "Size",
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "",
+          "InvariantPropertyName": "Size",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
+        },
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -630,7 +672,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Score_Column1",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -726,11 +768,11 @@
       "IsDataControl": false,
       "IsFromScreenLayout": false,
       "IsGroupControl": false,
-      "IsLocked": true,
+      "IsLocked": false,
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Username_Column1",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {

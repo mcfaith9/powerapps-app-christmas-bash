@@ -474,6 +474,18 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 2
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -484,19 +496,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthScreen.Image1.AccessibleLabel"
+                  "fullyQualifiedName": "AuthScreen.closeBtnAuthScreen.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthScreen.Image1.AccessibleLabel",
+                  "fullyQualifiedName": "AuthScreen.closeBtnAuthScreen.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "AuthScreen",
-                "type": "AuthScreen.Image1"
+                "type": "AuthScreen.closeBtnAuthScreen"
               }
             }
           ],
@@ -514,19 +526,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "AuthScreen.Image1.TabIndex"
+                  "fullyQualifiedName": "AuthScreen.closeBtnAuthScreen.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "AuthScreen.Image1.TabIndex",
+                  "fullyQualifiedName": "AuthScreen.closeBtnAuthScreen.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "AuthScreen",
-                "type": "AuthScreen.Image1"
+                "type": "AuthScreen.closeBtnAuthScreen"
               }
             }
           ],
