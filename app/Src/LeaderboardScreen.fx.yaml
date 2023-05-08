@@ -12,7 +12,7 @@ LeaderboardScreen As screen:
 
     leaderboardTable As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
-        Color: =RGBA(54, 176, 75, 1)
+        Color: =RGBA(255, 255, 255, 1)
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         Font: =Font.'Courier New'
@@ -20,6 +20,7 @@ LeaderboardScreen As screen:
         HeadingSize: =26
         Height: =588
         Items: =Table1
+        SelectedColor: =RGBA(255, 255, 255, 1)
         SelectedFill: =RGBA(0, 0, 0, 0)
         Size: =18
         Width: =1283
