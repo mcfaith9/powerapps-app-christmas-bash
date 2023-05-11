@@ -248,7 +248,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Emailaddress_Column1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -679,7 +679,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Score_Column1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -779,7 +779,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Username_Column1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
