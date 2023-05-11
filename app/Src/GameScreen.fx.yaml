@@ -58,8 +58,7 @@ GameScreen As screen:
             Height: =188
             Image: ='mole-agik-cropped'
             OnSelect: |-
-                =UpdateContext({Start:true});
-                timerGameScreen.Start;
+                =UpdateContext({Start: true})
             Width: =151
             X: =995
             Y: =372
@@ -67,6 +66,7 @@ GameScreen As screen:
 
     timerGameScreen As timer:
         Duration: =30000
+        Start: =Start
         X: =1077
         Y: =105
         ZIndex: =7

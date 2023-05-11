@@ -1312,36 +1312,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Start"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "GameScreen.Start",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Start",
-                "module": "GameScreen",
-                "type": "GameScreen"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "GameScreen.isTimerRunning"
                 }
               ],
