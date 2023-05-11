@@ -54,7 +54,7 @@ GameScreen As screen:
             Height: =188
             Image: ='mole-agik-cropped'
             OnSelect: |-
-                =UpdateContext({ isTimerRunning: true });
+                =UpdateContext({ isTimerRunning: false });
                 timerGameScreen.Start;
             Width: =151
             X: =995
