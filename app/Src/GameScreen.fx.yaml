@@ -37,7 +37,7 @@ GameScreen As screen:
             Image: ='mole-graham-cropped'
             OnSelect: |-
                 =UpdateContext({ isTimerRunning: false });
-                timerGameScreen.Start;
+                timerGameScreen.AutoStart;
             Width: =229
             X: =441
             Y: =372
@@ -48,7 +48,7 @@ GameScreen As screen:
             Image: ='mole-santa-cropped'
             OnSelect: |-
                 =UpdateContext({ isTimerRunning: false });
-                timerGameScreen.Start;
+                timerGameScreen.AutoStart;
             Width: =128
             X: =273
             Y: =297
@@ -58,7 +58,7 @@ GameScreen As screen:
             Height: =188
             Image: ='mole-agik-cropped'
             OnSelect: |-
-                =UpdateContext({ isTimerRunning: false });
+                =UpdateContext({Start:true});
                 timerGameScreen.Start;
             Width: =151
             X: =995
