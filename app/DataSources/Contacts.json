@@ -235,6 +235,7 @@
       "msdyn_isminor": "Is Minor",
       "msdyn_isminorwithparentalconsent": "Is Minor with Parental Consent",
       "msdyn_portaltermsagreementdate": "Portal Terms Agreement Date",
+      "msft_datastate": "msft_DataState",
       "nickname": "Nickname",
       "numberofchildren": "No. of Children",
       "onholdtime": "On Hold Time (Minutes)",
