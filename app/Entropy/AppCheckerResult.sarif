@@ -1312,17 +1312,17 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "App.CursorImage"
+                  "fullyQualifiedName": "App.hammer-idle"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "App.CursorImage",
+                  "fullyQualifiedName": "App.hammer-idle",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "CursorImage",
+                "member": "hammer-idle",
                 "module": "App",
                 "type": "App"
               }
@@ -1334,7 +1334,7 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "app-UnusedVariables",
+          "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 2
         },
         {
@@ -1408,20 +1408,20 @@
               }
             },
             {
-              "id": "app-UnusedVariables",
+              "id": "app-UnusedMediaResources",
               "messageStrings": {
                 "issue": {
-                  "text": "Unused variable"
+                  "text": "Unused media files"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Remove the unused variable."
+                  "Remove the unused media file in the Media pane."
                 ],
                 "level": "Medium",
                 "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             },
             {

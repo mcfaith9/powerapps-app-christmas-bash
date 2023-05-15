@@ -1,7 +1,5 @@
 GameScreen As screen:
-    OnVisible: |-
-        =Set(CursorImage, "https://uc90d3d788da855e692e49fb335f.previews.dropboxusercontent.com/p/thumb/AB4x6yd0AJqq3owXMAuSFLTUf-lVGIAsuF_UqONWjXeky9-vJ9p2OMrD1gxStC4eR2xfMUx8wGK6E5AKVXNxCu3lpAjhKjLO_j9M3wrKa1sHGSKkIjrNmP3hokqrXbBnm78pXi7sLpT-HrqZcVQkO6XQcb9A_7ZZUFpcTtcgb4ojWwLUD0IWSPXAt7b3DBwgabUPVQfYDell7nnE42m6nD-gx6WL5naRU5VEPX712gnBhT5EpNdO5xXOSeiFWOu_Pagc5uk8Xqs9YQ6ctR6uLdtABQn69IuNezW2M7gcB8TgEoShTWMTEoJ11-xKnF3VHUf7aaDO6onNMwqJzgFCmhfFF6BmzL25NvcX2qRrIRuxrqF6Z5BtuwZZ473ZLF-QogM/p.png");
-        UpdateContext({CursorImage: CursorImage})
+    OnVisible: =
 
     bgGameScreen As image:
         Height: =768
