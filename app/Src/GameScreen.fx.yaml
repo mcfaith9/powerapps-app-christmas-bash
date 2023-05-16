@@ -106,7 +106,7 @@ GameScreen As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        Y: =33
+        Y: =193
         ZIndex: =9
 
         Image1 As image:
