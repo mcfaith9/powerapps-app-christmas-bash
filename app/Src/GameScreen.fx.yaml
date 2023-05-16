@@ -2,6 +2,7 @@ GameScreen As screen:
     OnVisible: |-
         =UpdateContext({ Score: 0 });
         UpdateContext({ GameScreenTimerStart: false });
+        ClearCollect(ScoreCollection, { Score: 0 });
 
     bgGameScreen As image:
         Height: =768
