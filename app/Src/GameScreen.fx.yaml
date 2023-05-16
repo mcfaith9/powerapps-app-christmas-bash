@@ -45,6 +45,7 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
+            Visible: =Rand()
             Width: =229
             X: =441
             Y: =372
@@ -57,6 +58,7 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
+            Visible: =Rand()
             Width: =128
             X: =273
             Y: =297
@@ -68,6 +70,7 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
+            Visible: =Rand()
             Width: =151
             X: =995
             Y: =372
