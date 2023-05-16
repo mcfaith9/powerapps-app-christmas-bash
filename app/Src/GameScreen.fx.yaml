@@ -74,6 +74,15 @@ GameScreen As screen:
         Duration: =30000
         OnTimerEnd: |-
             =UpdateContext({ GameScreenTimerStart: false });
+        OnTimerStart: |-
+            =ForAll(MolesCollection,
+                {
+                    MoleImage: ThisRecord.MoleImage,
+                    YPosition: If(ThisRecord.Visible, Round(Rand() * Rand() * 200, 0), 0),
+                    Visible: ThisRecord.Visible,
+                    Timer: Rand()
+                }
+            );
         Start: =GameScreenTimerStart
         Visible: =false
         X: =1077
