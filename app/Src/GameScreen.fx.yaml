@@ -78,8 +78,7 @@ GameScreen As screen:
         Duration: =30000
         OnTimerEnd: |-
             =UpdateContext({ GameScreenTimerStart: false });
-            Set(RandomizeImages, false);
-        OnTimerStart: =Set(RandomizeImages, true);
+        OnTimerStart: =
         Start: =GameScreenTimerStart
         Visible: =false
         X: =1077
@@ -98,24 +97,4 @@ GameScreen As screen:
         X: =1047
         Y: =201
         ZIndex: =8
-
-    "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver4.0'":
-        DelayItemLoading: =true
-        Items: =MolesCollection
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =Min(160, Self.Height - 60)
-        Y: =193
-        ZIndex: =9
-
-        Image1 As image:
-            Height: =128
-            Image: =ThisItem.MoleImage
-            OnSelect: =Select(Parent)
-            Visible: =ThisItem.Visible
-            Width: =128
-            X: =189
-            Y: =32
-            ZIndex: =1
 
