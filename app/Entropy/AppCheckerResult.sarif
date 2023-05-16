@@ -522,6 +522,30 @@
               "message": {
                 "text": "Error occurred running rule app-InefficientDelayLoading."
               }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 4
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
+            },
+            {
+              "associatedRule": {
+                "id": "app-InefficientDelayLoading",
+                "index": 4
+              },
+              "descriptor": {
+                "id": "app-InefficientDelayLoading"
+              },
+              "message": {
+                "text": "Error occurred running rule app-InefficientDelayLoading."
+              }
             }
           ]
         }
@@ -1072,19 +1096,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image8.AccessibleLabel"
+                  "fullyQualifiedName": "GameScreen.reindeerMole.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image8.AccessibleLabel",
+                  "fullyQualifiedName": "GameScreen.reindeerMole.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "GameScreen",
-                "type": "GameScreen.Image8"
+                "type": "GameScreen.reindeerMole"
               }
             }
           ],
@@ -1102,19 +1126,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image8.TabIndex"
+                  "fullyQualifiedName": "GameScreen.reindeerMole.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image8.TabIndex",
+                  "fullyQualifiedName": "GameScreen.reindeerMole.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "GameScreen",
-                "type": "GameScreen.Image8"
+                "type": "GameScreen.reindeerMole"
               }
             }
           ],
@@ -1132,19 +1156,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image4.AccessibleLabel"
+                  "fullyQualifiedName": "GameScreen.gramMole.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image4.AccessibleLabel",
+                  "fullyQualifiedName": "GameScreen.gramMole.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "GameScreen",
-                "type": "GameScreen.Image4"
+                "type": "GameScreen.gramMole"
               }
             }
           ],
@@ -1162,19 +1186,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image4.TabIndex"
+                  "fullyQualifiedName": "GameScreen.gramMole.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image4.TabIndex",
+                  "fullyQualifiedName": "GameScreen.gramMole.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "GameScreen",
-                "type": "GameScreen.Image4"
+                "type": "GameScreen.gramMole"
               }
             }
           ],
@@ -1192,19 +1216,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image9.AccessibleLabel"
+                  "fullyQualifiedName": "GameScreen.agikMole.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image9.AccessibleLabel",
+                  "fullyQualifiedName": "GameScreen.agikMole.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "GameScreen",
-                "type": "GameScreen.Image9"
+                "type": "GameScreen.agikMole"
               }
             }
           ],
@@ -1222,19 +1246,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "GameScreen.Image9.TabIndex"
+                  "fullyQualifiedName": "GameScreen.agikMole.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "GameScreen.Image9.TabIndex",
+                  "fullyQualifiedName": "GameScreen.agikMole.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "GameScreen",
-                "type": "GameScreen.Image9"
+                "type": "GameScreen.agikMole"
               }
             }
           ],
