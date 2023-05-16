@@ -6,7 +6,9 @@ GameScreen As screen:
         
         ClearCollect(MolesCollection, { MoleImage: agikMole, Visible: false });
         Collect(MolesCollection, { MoleImage: reindeerMole, Visible: false });
-        Collect(MolesCollection, { MoleImage: gramMole, Visible: false })
+        Collect(MolesCollection, { MoleImage: gramMole, Visible: false });
+        
+        Set(ImageList, ["santaMole", "gramMole", "agikMole", "elfMole", "reindeerMole"]);
         
         
 
