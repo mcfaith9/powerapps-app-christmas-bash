@@ -51,7 +51,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "05/16/2023 05:37:40",
+  "HeaderLastSavedDateTimeUTC": "05/16/2023 05:42:01",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "29a9186f-7f65-4603-90f4-dbbe897e54f3": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/144fdff63b2e4447a143a9765089e8a3\"",
@@ -213,7 +213,8 @@
     "Office365Users_1": 1,
     "PieChartSample": 101,
     "ScoreCollection": 103,
-    "Table1": 100
+    "Table1": 100,
+    "TempCollection": 105
   },
   "OrderGroupControls": {
     "authFormGroup": {

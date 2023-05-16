@@ -4,9 +4,10 @@ GameScreen As screen:
         UpdateContext({ GameScreenTimerStart: false });
         ClearCollect(ScoreCollection, { Score: Score });
         
-        ClearCollect(MolesCollection, { MoleImage: Image9, YPosition: 0, Visible: false, timerGameScreen: Rand() });
-        Collect(MolesCollection, { MoleImage: Image8, YPosition: 0, Visible: false, timerGameScreen: Rand() });
-        Collect(MolesCollection, { MoleImage: Image4, YPosition: 0, Visible: false, timerGameScreen: Rand() })
+        ClearCollect(MolesCollection, { MoleImage: Image9, Visible: false });
+        Collect(MolesCollection, { MoleImage: Image8, Visible: false });
+        Collect(MolesCollection, { MoleImage: Image4, Visible: false })
+        
         
 
     bgGameScreen As image:
@@ -45,7 +46,6 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
-            Visible: =Rand()
             Width: =229
             X: =441
             Y: =372
@@ -58,7 +58,6 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
-            Visible: =Rand()
             Width: =128
             X: =273
             Y: =297
@@ -70,7 +69,6 @@ GameScreen As screen:
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
-            Visible: =Rand()
             Width: =151
             X: =995
             Y: =372
@@ -80,24 +78,19 @@ GameScreen As screen:
         Duration: =30000
         OnTimerEnd: |-
             =UpdateContext({ GameScreenTimerStart: false });
-            
-            ForAll(MolesCollection,
-                {
-                    MoleImage: ThisRecord.MoleImage,
-                    YPosition: 0,
-                    Visible: ThisRecord.Visible,
-                    timerGameScreen: Rand()
-                }
+        OnTimerStart: |-
+            =ClearCollect(
+                TempCollection,
+                ForAll(
+                    MolesCollection,
+                    {
+                        MoleImage: ThisRecord.MoleImage,
+                        Visible: If(Rand() < 0.5, true, false)
+                    }
+                )
             );
-        OnTimerStart: |
-            =ForAll(MolesCollection,
-                {
-                    MoleImage: ThisRecord.MoleImage,
-                    YPosition: If(ThisRecord.Visible, Round(Rand() * Rand() * 200, 0), 0),
-                    Visible: ThisRecord.Visible,
-                    timerGameScreen: Rand()
-                }
-            )
+            Clear(MolesCollection);
+            ForAll(TempCollection, Collect(MolesCollection, { MoleImage: MoleImage, Visible: Visible }));
         Start: =GameScreenTimerStart
         Visible: =false
         X: =1077
