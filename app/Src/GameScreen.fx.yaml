@@ -81,11 +81,11 @@ GameScreen As screen:
             ForAll(MolesCollection,
                 {
                     MoleImage: ThisRecord.MoleImage,
-                    YPosition: If(ThisRecord.Visible, Round(Rand() * Rand() * 200, 0), 0),
+                    YPosition: 0,
                     Visible: ThisRecord.Visible,
                     timerGameScreen: Rand()
                 }
-            )
+            );
         OnTimerStart: |
             =ForAll(MolesCollection,
                 {
