@@ -1,8 +1,11 @@
 GameScreen As screen:
-    OnVisible: |-
+    OnVisible: |
         =UpdateContext({ Score: 0 });
         UpdateContext({ GameScreenTimerStart: false });
         ClearCollect(ScoreCollection, { Score: Score });
+        ClearCollect(MolesCollection, { MoleImage: Image9, YPosition: 0, Visible: false, Timer: Rand() });
+        ClearCollect(MolesCollection, { MoleImage: Image8, YPosition: 0, Visible: false, Timer: Rand() });
+        ClearCollect(MolesCollection, { MoleImage: Image4, YPosition: 0, Visible: false, Timer: Rand() });
 
     bgGameScreen As image:
         Height: =768
