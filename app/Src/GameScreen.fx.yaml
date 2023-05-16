@@ -51,8 +51,9 @@ GameScreen As screen:
             ZIndex: =3
 
         Image8 As image:
+            AccessibleLabel: =
             Height: =151
-            Image: ='mole-santa-cropped'
+            Image: ='mole-reindeer-cropped'
             OnSelect: |-
                 =UpdateContext({ GameScreenTimerStart: true });
                 UpdateContext({ Score: Score + 10 });
@@ -76,15 +77,24 @@ GameScreen As screen:
         Duration: =30000
         OnTimerEnd: |-
             =UpdateContext({ GameScreenTimerStart: false });
-        OnTimerStart: |-
+            
+            ForAll(MolesCollection,
+                {
+                    MoleImage: ThisRecord.MoleImage,
+                    YPosition: If(ThisRecord.Visible, Round(Rand() * Rand() * 200, 0), 0),
+                    Visible: ThisRecord.Visible,
+                    timerGameScreen: Rand()
+                }
+            )
+        OnTimerStart: |
             =ForAll(MolesCollection,
                 {
                     MoleImage: ThisRecord.MoleImage,
                     YPosition: If(ThisRecord.Visible, Round(Rand() * Rand() * 200, 0), 0),
                     Visible: ThisRecord.Visible,
-                    Timer: Rand()
+                    timerGameScreen: Rand()
                 }
-            );
+            )
         Start: =GameScreenTimerStart
         Visible: =false
         X: =1077
