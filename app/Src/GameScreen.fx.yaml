@@ -78,19 +78,8 @@ GameScreen As screen:
         Duration: =30000
         OnTimerEnd: |-
             =UpdateContext({ GameScreenTimerStart: false });
-        OnTimerStart: |-
-            =ClearCollect(
-                TempCollection,
-                ForAll(
-                    MolesCollection,
-                    {
-                        MoleImage: ThisRecord.MoleImage,
-                        Visible: If(Rand() < 0.5, true, false)
-                    }
-                )
-            );
-            Clear(MolesCollection);
-            ForAll(TempCollection, Collect(MolesCollection, { MoleImage: MoleImage, Visible: Visible }));
+            Set(RandomizeImages, false);
+        OnTimerStart: =Set(RandomizeImages, true);
         Start: =GameScreenTimerStart
         Visible: =false
         X: =1077
@@ -117,8 +106,7 @@ GameScreen As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =Min(160, Self.Height - 60)
-        X: =102
-        Y: =164
+        Y: =33
         ZIndex: =9
 
         Image1 As image:
@@ -127,7 +115,7 @@ GameScreen As screen:
             OnSelect: =Select(Parent)
             Visible: =ThisItem.Visible
             Width: =128
-            X: =16
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            X: =189
+            Y: =32
             ZIndex: =1
 
