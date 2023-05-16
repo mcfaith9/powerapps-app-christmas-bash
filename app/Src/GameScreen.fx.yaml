@@ -1,6 +1,6 @@
 GameScreen As screen:
     OnVisible: |-
-        =Set(Score, 0);
+        =UpdateContext({ Score: 0 });
         UpdateContext({ GameScreenTimerStart: false });
 
     bgGameScreen As image:
